@@ -47,7 +47,7 @@ if __name__=='__main__':
         # move position
         utils.move_arm_init()
         # move in front of the tray
-        utils.move_base_goal(1.8, -0.1, -90)
+        utils.move_base_goal(1.8, -0.1, -91)
         # neutral position
         utils.move_arm_neutral()
         # open hand
